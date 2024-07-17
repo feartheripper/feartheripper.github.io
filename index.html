@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       body{
+       background-color: rgb(0,0,0);
+       }
+       .font{
+          visibility: hidden;
+       }
+       #output{
+          margins: auto;
+          width: 80%;
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+<div id="output" class="container" style="width: 100%; height: 20%;">
+</div>
+<br>
+<div id="fontHolder" class="container" style="width: 0%; height: 0%;">
+<svg class="font" id="A" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="10" y1="10" x2="10" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="50" y1="10" x2="50" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="5" y1="50" x2="55" y2="50" style="stroke:red;stroke-width:10" />
+  A
+</svg>
+
+<svg class="font" id="B" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="10" y1="10" x2="10" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="5" y1="50" x2="55" y2="50" style="stroke:red;stroke-width:10" />
+  B
+</svg>
+
+<svg class="font" id="C" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="5" cy="50" r="3" stroke="red" stroke-width="4" fill="red" />
+  <line x1="30" y1="10" x2="5" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="5" y1="50" x2="55" y2="50" style="stroke:red;stroke-width:10" />
+  C
+</svg>
+
+<svg class="font" id="D" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="5" y1="10" x2="50" y2="10" style="stroke:red;stroke-width:10" />
+  <line x1="10" y1="10" x2="10" y2="50" style="stroke:red;stroke-width:10" />
+  D
+</svg>
+
+<svg class="font" id="E" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="5" y1="10" x2="50" y2="10" style="stroke:red;stroke-width:10" />
+  <line x1="10" y1="10" x2="10" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="5" y1="50" x2="50" y2="50" style="stroke:red;stroke-width:10" />
+  E
+</svg>
+
+<svg class="font" id="F" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="30" cy="10" r="3" stroke="red" stroke-width="4" fill="red" />
+  <line x1="30" y1="10" x2="9" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="30" y1="10" x2="55" y2="50" style="stroke:red;stroke-width:10" />
+  F
+</svg>
+
+<br>
+
+<svg class="font" id="G" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="5" y1="10" x2="50" y2="10" style="stroke:red;stroke-width:10" />
+  <line x1="45" y1="10" x2="45" y2="50" style="stroke:red;stroke-width:10" />
+  G
+</svg>
+
+<svg class="font" id="H" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="50" y1="10" x2="50" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="5" y1="50" x2="55" y2="50" style="stroke:red;stroke-width:10" />
+  H
+</svg>
+
+<svg class="font" id="I" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="10" y1="10" x2="10" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="50" y1="10" x2="50" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="5" y1="10" x2="55" y2="10" style="stroke:red;stroke-width:10" />
+  I
+</svg>
+
+<svg class="font" id="J" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="10" y1="10" x2="10" y2="50" style="stroke:red;stroke-width:10" />
+  <circle cx="30" cy="30" r="3" stroke="red" stroke-width="4" fill="red" />
+  J
+</svg>
+
+<svg class="font" id="K" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="5" y1="10" x2="55" y2="10" style="stroke:red;stroke-width:10" />
+  <circle cx="30" cy="30" r="3" stroke="red" stroke-width="4" fill="red" />
+  K
+</svg>
+
+<svg class="font" id="L" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="3" stroke="red" stroke-width="4" fill="red" />
+  <line x1="30" y1="10" x2="50" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="5" y1="50" x2="50" y2="50" style="stroke:red;stroke-width:10" />
+  L
+</svg>
+
+<br>
+
+<svg class="font" id="M" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="50" y1="10" x2="50" y2="50" style="stroke:red;stroke-width:10" />
+  <circle cx="30" cy="30" r="3" stroke="red" stroke-width="4" fill="red" />
+  M
+</svg>
+
+<svg class="font" id="N" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="5" y1="50" x2="55" y2="50" style="stroke:red;stroke-width:10" />
+  <circle cx="30" cy="30" r="3" stroke="red" stroke-width="4" fill="red" />
+  N
+</svg>
+
+<svg class="font" id="O" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="5" y1="10" x2="50" y2="10" style="stroke:red;stroke-width:10" />
+  <line x1="45" y1="10" x2="45" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="5" y1="50" x2="50" y2="50" style="stroke:red;stroke-width:10" />
+  O
+</svg>
+
+<svg class="font" id="P" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="10" y1="10" x2="10" y2="50" style="stroke:red;stroke-width:10" />
+  <circle cx="30" cy="20" r="3" stroke="red" stroke-width="4" fill="red" />
+  <circle cx="30" cy="40" r="3" stroke="red" stroke-width="4" fill="red" />
+  P
+</svg>
+
+<svg class="font" id="Q" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="5" y1="10" x2="55" y2="10" style="stroke:red;stroke-width:10" />
+  <circle cx="20" cy="30" r="3" stroke="red" stroke-width="4" fill="red" />
+  <circle cx="40" cy="30" r="3" stroke="red" stroke-width="4" fill="red" />
+  Q
+</svg>
+
+<svg class="font" id="R" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="3" stroke="red" stroke-width="4" fill="red" />
+  <circle cx="30" cy="10" r="3" stroke="red" stroke-width="4" fill="red" />
+  <circle cx="5" cy="50" r="3" stroke="red" stroke-width="4" fill="red" />
+  <circle cx="29" cy="35" r="2" stroke="red" stroke-width="2" fill="red" />
+  <line x1="30" y1="10" x2="50" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="5" y1="50" x2="50" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="30" y1="10" x2="5" y2="50" style="stroke:red;stroke-width:10" />
+  R
+</svg>
+
+<br>
+
+<svg class="font" id="S" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="50" y1="10" x2="50" y2="50" style="stroke:red;stroke-width:10" />
+  <circle cx="30" cy="20" r="3" stroke="red" stroke-width="4" fill="red" />
+  <circle cx="30" cy="40" r="3" stroke="red" stroke-width="4" fill="red" />
+  S
+</svg>
+
+<svg class="font" id="T" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="5" y1="50" x2="55" y2="50" style="stroke:red;stroke-width:10" />
+  <circle cx="20" cy="30" r="3" stroke="red" stroke-width="4" fill="red" />
+  <circle cx="40" cy="30" r="3" stroke="red" stroke-width="4" fill="red" />
+  T
+</svg>
+
+<svg class="font" id="U" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="45" y1="10" x2="45" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="5" y1="10" x2="50" y2="10" style="stroke:red;stroke-width:10" />
+  <line x1="10" y1="10" x2="10" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="5" y1="50" x2="50" y2="50" style="stroke:red;stroke-width:10" />
+  U
+</svg>
+
+<svg class="font" id="V" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="30" cy="30" r="3" stroke="red" stroke-width="4" fill="red" />
+  <line x1="10" y1="10" x2="10" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="5" y1="50" x2="55" y2="50" style="stroke:red;stroke-width:10" />
+  V
+</svg>
+
+<svg class="font" id="W" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="30" cy="30" r="3" stroke="red" stroke-width="4" fill="red" />
+  <line x1="5" y1="10" x2="50" y2="10" style="stroke:red;stroke-width:10" />
+  <line x1="10" y1="10" x2="10" y2="50" style="stroke:red;stroke-width:10" />
+  W
+</svg>
+
+<svg class="font" id="X" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="20" cy="20" r="3" stroke="red" stroke-width="4" fill="red" />
+  <circle cx="40" cy="20" r="3" stroke="red" stroke-width="4" fill="red" />
+  <path id="lineAC" d="M 10 30 q 20 30 40 0" stroke="red" fill="none" stroke-width="4"/>
+  X
+</svg>
+
+<br>
+
+<svg class="font" id="Y" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="28" cy="30" r="3" stroke="red" stroke-width="4" fill="red" />
+  <line x1="45" y1="10" x2="45" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="5" y1="10" x2="50" y2="10" style="stroke:red;stroke-width:10" />
+  <line x1="10" y1="10" x2="10" y2="50" style="stroke:red;stroke-width:10" />
+  <line x1="5" y1="50" x2="50" y2="50" style="stroke:red;stroke-width:10" />
+  Y
+</svg>
+
+<svg class="font" id="Z" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="30" cy="30" r="3" stroke="red" stroke-width="4" fill="red" />
+  <line x1="5" y1="10" x2="50" y2="10" style="stroke:red;stroke-width:10" />
+  <line x1="45" y1="10" x2="45" y2="50" style="stroke:red;stroke-width:10" />
+  Z
+</svg>
+<svg class="font" id="_" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+</svg>
+<svg class="font" id="MEOW" height="5%" width="3%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+</svg>
+</div>
+<script>
+printName();
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+async function printName(){
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const greeting = "HELLO_DETECTIVE_";
+    var name = greeting.concat(urlParams.get('name'));
+    for (var i = 0; i < name.length; i++){
+        var elem = document.querySelector('#' + name.charAt(i));
+        var clone = elem.cloneNode(true);
+        clone.id = name.charAt(i) + String(i);
+        clone.classList.remove("font");
+        document.getElementById("output").append(clone);
+    }
+    await sleep(3000);
+    for (var j = 0; j < name.length; j++){
+        await sleep(50);
+        var target = document.getElementById(name.charAt(j) + String(j));
+      if(name.charAt(j) == '_'){
+            target.innerHTML =  "<text x='10' y='60' font-family='Arial' font-size='50' fill='red'>" + " "  + "</text>"
+      }else{
+            target.innerHTML =  "<text x='10' y='60' font-family='Arial' font-size='50' fill='red'>" + name.charAt(j)  + "</text>"
+      }    
+    }
+}
+</script>
+</body>
+</html>
